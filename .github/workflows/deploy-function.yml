@@ -10,7 +10,7 @@ jobs:
       - name: Pretend to test
         run: echo "AlL tEStS PaSsED"
       - name: Deploy
-        uses: andeplane/deploy-function-action
+        uses: andeplane/deploy-function-action@master
         with:
           cdf_project: andershaf
           cdf_base_url: https://api.cognitedata.com
