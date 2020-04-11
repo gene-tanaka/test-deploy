@@ -1,2 +1,3 @@
 def handle(data, client, secrets):
-    print("Hello anders")
+    assets = client.assets.list()
+    print(f"Found {len(assets)} assets.")
