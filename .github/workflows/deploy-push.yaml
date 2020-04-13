@@ -23,7 +23,7 @@ jobs:
           pip install pytest
       - name: Test code
         env:
-          COGNITE_API_KEY: ${{ secrets.COGNITE_API_KEY }}
+          COGNITE_API_KEY: ${{ secrets.COGNITE_FUNCTION_API_KEY }}
           COGNITE_PROJECT: datastudio
           COGNITE_BASE_URL: https://greenfield.cognitedata.com
           COGNITE_CLIENT_NAME: cognite-function-deploy
@@ -33,6 +33,6 @@ jobs:
         with:
           cdf_project: datastudio
           cdf_base_url: https://greenfield.cognitedata.com
-          cdf_deployment_credentials: ${{ secrets.COGNITE_API_KEY }}
-          cdf_function_credentials: ${{ secrets.COGNITE_API_KEY }}
+          cdf_deployment_credentials: ${{ secrets.COGNITE_DEPLOY_API_KEY }}
+          cdf_function_credentials: ${{ secrets.COGNITE_FUNCTION_API_KEY }}
           function_path: ${{ matrix.functions }}
