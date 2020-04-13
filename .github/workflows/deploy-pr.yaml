@@ -27,7 +27,7 @@ jobs:
           COGNITE_CLIENT_NAME: cognite-function-deploy
         run: pytest ${{ matrix.functions }} -m "unit"
       - name: Deploy
-        uses: andeplane/deploy-function-action@master
+        uses: andeplane/deploy-function-python@master
         with:
           cdf_project: datastudio
           cdf_base_url: https://greenfield.cognitedata.com
