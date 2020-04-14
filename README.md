@@ -8,7 +8,7 @@ This repository can be used as a template to use Cognite Functions with a CI/CD 
 
 This is currently a work in progress, but works like a proof of concept on how a CI/CD pipeline can be built with GitHub actions on top of Cognite Functions.
 
-![Screenshot of CI/CD](screenshot.png)
+<img src="screenshot.png" width="600px">
 
 # How to use it
 ## Create a repository with this template
