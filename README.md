@@ -8,6 +8,8 @@ This repository can be used as a template to use Cognite Functions with a CI/CD 
 
 This is currently a work in progress, but works like a proof of concept on how a CI/CD pipeline can be built with GitHub actions on top of Cognite Functions.
 
+![Screenshot of CI/CD](screenshot.png)
+
 # How to use it
 ## Create a repository with this template
 First, click the green [Use this template](https://github.com/andeplane/test-deploy/generate) button to create a repository from this template.
