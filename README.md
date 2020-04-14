@@ -1,4 +1,6 @@
 # Cognite function template
+![Cognite Functions deployed](https://github.com/andeplane/test-deploy/workflows/Deploy%20Cognite%20Function/badge.svg)
+
 This repository can be used as a template to use Cognite Functions with a CI/CD pipeline leveraging GitHub actions. This repository uses a GitHub action from github.com/andeplane/deploy-function-python which gives you
  - Automatic testing and deployment of Cognite functions per repository
  - Unit tests on the functions
