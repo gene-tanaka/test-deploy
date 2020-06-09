@@ -12,6 +12,7 @@ This is currently a work in progress, but works like a proof of concept on how a
 
 <img src="screenshot.png" width="600px">
 
+
 # How to use it
 ## Create a repository with this template
 First, click the green [Use this template](https://github.com/andeplane/test-deploy/generate) button to create a repository from this template.
