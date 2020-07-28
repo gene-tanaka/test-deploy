@@ -21,13 +21,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install cognite-sdk-experimental
           pip install pytest
-      - name: Test code
-        env:
-          COGNITE_API_KEY: ${{ secrets.COGNITE_FUNCTION_API_KEY }}
-          COGNITE_PROJECT: wei-dev
-          COGNITE_BASE_URL: https://greenfield.cognitedata.com
-          COGNITE_CLIENT_NAME: cognite-function-deploy
-        run: pytest ${{ matrix.functions }} -m "unit"
       - name: Deploy
         uses: andeplane/deploy-function-python@master
         with:
